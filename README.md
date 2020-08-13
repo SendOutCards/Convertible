@@ -14,18 +14,17 @@ Converting your basic types and models to-and-from JSON, binary data, etc. is a 
 - [Author](#author)
 - [License](#license)
 
-## Installation
+### Swift Package Manager
+You can build `Convertible` using the [Swift Package Manager](https://github.com/apple/swift-package-manager). Just include `Convertible` as a package in your dependencies:
 
-`Convertible` is available through [CocoaPods](http://cocoapods.org). To install, simply include the following lines in your podfile:
-```ruby
-use_frameworks!
-pod 'Convertible'
+```swift
+.package(url: "https://github.com/paulofaria/Convertible.git", .upToNextMajor(from: "6.0.0")),
 ```
+
 Be sure to import the module at the top of your .swift files:
 ```swift
 import Convertible
 ```
-Alternatively, clone this repo or download it as a zip and include the classes in your project.
 
 ## Data
 
